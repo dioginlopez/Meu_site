@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(212, 176, 245, 0.781);
+    color: green;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    color:red;
+}
+p {
+    color: blue;
+    font-weight: bold;
+}
+.paragrafo {
+    color: rgb(48, 184, 154);
+    font-weight: bold;
+}
+    

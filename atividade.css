@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(175, 233, 175);
+    text-align: center;
+}
+img {
+    width: 400px;
+    border-radius: 50%;
+    padding: 20px;
+    cursor:cell;
+    filter: saturate(0);
+
+    &:hover {
+        filter: saturate(1);
+    }
+}
+
+h1 {
+    color: rgb(7, 128, 37);
+    font-family: fantasy;
+}
+h2 {
+    color: rgb(7, 128, 37);
+    margin: 10px;
+}
+p {
+    color: rgb(7, 128, 37);
+    font-weight: bold;
+    margin: 10px;
+}
