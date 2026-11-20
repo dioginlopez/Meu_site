@@ -1,0 +1,47 @@
+body {
+    background-image: url("./escolas.jpg");
+    background-size: cover;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    
+}
+
+.beneficios {
+    margin-left: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px 12px;
+    text-align: left;
+}
+td{
+    background-color: #e0ce67;
+}
+
+thead {
+    background-color: #ebe708;
+}
+
+tfoot td {
+    font-size: 0.9em;
+    color: #000000;
+}
